@@ -4,6 +4,12 @@ from nonebot.adapters.onebot.v11 import Message
 from nonebot.params import CommandArg
 
 __zx_plugin_name__='竖排文字'
+__plugin_usage__ = """
+usage：
+    竖排文字
+    指令：
+        竖排<文本>
+""".strip()
 
 def replace_symbols(text):
     replace_dict={
